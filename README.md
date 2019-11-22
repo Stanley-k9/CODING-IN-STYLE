@@ -2,8 +2,8 @@
 making coding fun 
 
 
-Run the code in c++ 
+This code is in c++ 
 
-i was using visual studio to write the code
+i was using visual studio to run the code
 
 all the best in coding
