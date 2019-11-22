@@ -1,0 +1,777 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <ctime>
+#include <Windows.h>
+using namespace std;
+
+int main()
+{
+	srand(time(0));
+	
+	system("color 2");
+	
+	HWND console = GetConsoleWindow();
+	RECT ConsoleRect;
+	GetWindowRect(console, &ConsoleRect);
+	MoveWindow(console, ConsoleRect.left, ConsoleRect.top, 1100, 500, TRUE);
+
+	int i = 1;
+	int k = 1;
+	do
+	{
+		//
+		//now developing THANK
+		//
+		//LINE 1
+		do
+		{
+
+
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "     ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "     ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+			cout << "                  ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "    ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "     ";
+			for (int i = 0; i < 8; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "     ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 2
+		do
+		{
+
+
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+
+
+
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "     ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "    ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "                    ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "  ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "     ";
+			for (int i = 0; i < 10; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "    ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 3
+		do
+		{
+
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+			cout << "   ";
+			for (int i = 0; i < 6; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "                       ";
+			for (int i = 0; i < 6; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 4
+		do
+		{
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << " ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "  ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+
+			for (int i = 0; i < 7; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "                          ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "       ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 5
+		do
+		{
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 12; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "  ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << " ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+
+			for (int i = 0; i < 7; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "                          ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "       ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 6
+		do
+		{
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "    ";
+
+			for (int i = 0; i < 5; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "    ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "                       ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "       ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 7
+		do
+		{
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "     ";
+
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "     ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "                      ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "        ";
+			for (int i = 0; i < 10; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "     ";
+			for (int i = 0; i < 10; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		//LINE 8
+		do
+		{
+			cout << "   ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "        ";
+
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "       ";
+
+			for (int i = 0; i < 2; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "   ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "      ";
+
+			for (int i = 0; i < 3; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "                     ";
+			for (int i = 0; i < 4; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+			cout << "         ";
+			for (int i = 0; i < 8; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+			cout << "       ";
+			for (int i = 0; i < 8; i++)
+			{
+				int p = 0 + rand() % 2;
+				cout << p;
+			}
+
+		} while (i > 20);
+		cout << endl;
+		cout << "\n";
+		//
+		cout << endl;
+		system("CLS");
+
+		
+
+	} while (i < 2);
+	_getch();
+	return 0;
+}
